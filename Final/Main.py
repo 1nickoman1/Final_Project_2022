@@ -14,6 +14,7 @@ def multiple_question(question, maybeanswer1, correctanswer1, correctanswer2, co
         scoreboard  += 1
     else:
         print(wrongmessage)
+        
 def true_false_question(question, correctanswer1, correctanswer2, correctmessage, wrongmessage, scoreboard):
     '''
     True and false question setup. It will ask if the question is true or false.
@@ -41,12 +42,13 @@ correctmessage = "Test"
 multiple_question(question1, maybeanswer1, correctanswer1, correctanswer2, correctmessage, wrongmessage, score)
 
 
-question1_3 = "True or False... The Toronto Maple Leafs have won 13 Stanley   Cups?"
+question1_3 = "True or False... The Toronto Maple Leafs have won 13 Stanley Cups?"
 correctanswer1_3  = "true"
 correctanswer2_3  = "t"
 wrongmessage_3 = "Incorrect, 1 + 1 is 2"
 correctmessage_3  = "Test"
 true_false_question(question1_3, correctanswer1_3, correctanswer2_3, correctmessage_3, wrongmessage_3, score)
+
 
 
 #Total Score
