@@ -1,9 +1,3 @@
-'''
-Created on Mar 9, 2022
-
-@author: 1526331
-'''
-
 class Text_questions():
     '''
     This is where the questions functions are going to be!
@@ -26,7 +20,7 @@ class Text_questions():
             scoreboard  += 1
         else:
             print(wrongmessage)
-        
+
     def true_false_question(self, question, correctanswer1, correctanswer2, correctmessage, wrongmessage, scoreboard):
         '''
         True and false question setup. It will ask if the question is true or false.
