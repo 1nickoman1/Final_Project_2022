@@ -1,6 +1,6 @@
 <h1 align="center">Test Application</h1>
 <p align="center">
-  <img src="D:\Code\Python\Final_Project_2022\resource\image\logo\logo.png" alt="Application Logo" width="120px" height="120px"/>
+  <img src="resource\image\logo\logo.png" alt="Application Logo" width="120px" height="120px"/>
   <br>
   This application i am working on for python is my final program/project for my AP Computer Science Principles. 
   And I will be making a Google Form/Test Base Application. 
