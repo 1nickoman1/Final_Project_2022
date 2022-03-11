@@ -4,32 +4,28 @@ class Text_questions():
     '''
 
 
-    def __init__(self, params):
+    def __init__(self, username, password):
         '''
-        Constructor
+        login
         '''
+        self.username = username
+        self.password = password
         
-    def multiple_question(self, question, maybeanswer1, correctanswer1, correctanswer2, correctmessage, wrongmessage, scoreboard):
+    def multiple_question(self, question, choice, first_correct, second_correct, correct_message, wrong_message, scoreboard):
         '''
-        Multiple question setup, It will ask for a question, and two maybe answers as well two correct answers and wrong message.
+        test values
         '''
+        self.question = question
+        self.choice = choice
+        self.first_correct = first_correct
+        self.second_correct = second_correct
+        self.correct_message = correct_message
+        self.wrong_message = wrong_message
+        self.scoreboard = scoreboard
+        
         print(question)
-        maybeanswer1 = input(maybeanswer1)
-        if maybeanswer1.lower() == correctanswer1 or maybeanswer1.lower() == correctanswer2:
-            print(correctmessage)
-            scoreboard  += 1
+        choice = input(choice)
+        if choice.lower() == first_correct or choice.lower() == second_correct:
+            print(correct_message)
         else:
-            print(wrongmessage)
-
-    def true_false_question(self, question, correctanswer1, correctanswer2, correctmessage, wrongmessage, scoreboard):
-        '''
-        True and false question setup. It will ask if the question is true or false.
-        '''
-        print(question)
-        maybeanswer1 = input(":")
-        if maybeanswer1.lower() == correctanswer1 or maybeanswer1.lower() == correctanswer2:
-            print(correctmessage)
-            scoreboard += 1
-        else:
-            print(wrongmessage)
-                
+            print(wrong_message)    
