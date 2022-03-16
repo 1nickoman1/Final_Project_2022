@@ -18,7 +18,7 @@ from tkinter import *
 
 if __name__ == '__main__':
     win = Tk()
-    
+    win.minsize(200, 100)
     
     
     
