@@ -4,7 +4,8 @@ Created on Mar 15, 2022
 @author: 1526331
 '''
 #imports
- 
+
+from tkinter import *
  
  
  
@@ -16,4 +17,13 @@ Created on Mar 15, 2022
 
 
 if __name__ == '__main__':
-    win = 
+    win = Tk()
+    
+    
+    
+    
+    
+    
+    
+    
+    win.mainloop()
