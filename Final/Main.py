@@ -44,11 +44,14 @@ def true_false_question(question, first_correct, second_correct, correct_message
         print(wrong_message)    
         wrong_question("Wrong")
 
-
+def written_questions(question, ):
 
 
 if __name__ == '__main__':
 # Defining Score variables
+
+    
+
 
     # Question One 
     question1 = "What is 1 + 1"

@@ -40,7 +40,7 @@
         - Date Function                          ❌
         - Time Function                          ❌
     - Save Answers Function                      ❌
-        - Make a Total score                     ❌
+        - Make a Total score                     🟡
 - GUI                                            ❌
     - Start Up App                               ❌
     - Login GUI                                  ❌
