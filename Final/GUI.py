@@ -48,10 +48,10 @@ if __name__ == '__main__':
                         width = 8)
     
     #Textvarible
-    len_Username_entry = Label(frame_personal,
-                   textvariable = Username)
-    len_Password_entry = Label(frame_personal,
-                   textvariable = Password)
+    #len_Username_entry = Label(frame_personal,
+    #               textvariable = Username)
+    #len_Password_entry = Label(frame_personal,
+    #               textvariable = Password)
 
     #Buttons
     
@@ -60,18 +60,13 @@ if __name__ == '__main__':
     
     #grids
     len_Username.grid(row=1, column = 1)
-    len_Username_entry.grid(row=2, column = 1)
+    #len_Username_entry.grid(row=1, column = 2)
     
-    len_Password.grid(row=2, column = 0)
-    len_Password_entry.grid(row=2, column = 1)
-    
-    
-    len_Username.grid(row=0, column=0)
-    len_Password.grid(row=0, column=2)
-    #len_km.grid(row=2, column=0)
+    len_Password.grid(row=2, column = 1)
+    #len_Password_entry.grid(row=2, column = 2)
 
     frame_personal.grid(row=0, column= 0)
-    frame_personal1.grid(row=1, column= 0)
+    frame_personal1.grid(row=2, column= 2)
     
     
     
