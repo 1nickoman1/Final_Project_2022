@@ -68,11 +68,7 @@ written_question_list = {
             "answer": "charles babbage"
         },
         3: {
-<<<<<<< HEAD
             "question": "12) What does “HTTP” stand for?",
-=======
-            "question": "12) What does â€œHTTPâ€ stand for?",
->>>>>>> refs/remotes/origin/main
             "answer": "hyper text transfer protocol"
         }
 }
@@ -188,11 +184,3 @@ if __name__ == '__main__':
 
     Test = float(scoreboard / question_counter) * 100
     print(f"{scoreboard}, out of {question_counter}, that is {Test}%")
-<<<<<<< HEAD
-
-=======
-
-
-
-
->>>>>>> refs/remotes/origin/main

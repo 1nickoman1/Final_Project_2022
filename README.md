@@ -27,23 +27,10 @@
 - Main Code                                      🟡
     - Save Info Function                         ❌
     - Question Function                          🟡 
-        - Short Answer Function                  ❌
-        - Long Answer Function                   ❌
-        - Multiple Choice Function               🟡 
-        - True & False Function                  🟡
-        - Check Boxes Function                   ❌
-        - Drop Down Function                     ❌
-        - Upload Files Function                  ❌
-        - Linear Scale Function                  ❌
-        - Multiple Choice Grid Function          ❌
-        - Checkbox Grid Function                 ❌
-        - Date Function                          ❌
-        - Time Function                          ❌
-    - Save Answers Function                      ❌
+        - Short Answer Function                  ✅
+        - Long Answer Function                   ✅
+        - Multiple Choice Function               ✅ 
+        - True & False Function                  ✅
+    - Save Answers Function                      🟡
         - Make a Total score                     🟡
-- GUI                                            ❌
-    - Start Up App                               ❌
-    - Login GUI                                  ❌
-    - Application GUI                            ❌
-        - Question GUI                           ❌
 ```
