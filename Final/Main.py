@@ -60,16 +60,16 @@ true_false_question_list = {
 
 written_question_list = {
         1: {
-            "question" : "",
-            "answer" : ""
+            "question": "10) The word starts with an A and ends with an E",
+            "answer": "apple"
         },
         2: {
-            "question" : "",
-            "answer" : ""
+            "question": "11) Who is often called the father of the computer?",
+            "answer": "charles babbage"
         },
         3: {
-            "question" : "",
-            "answer" : ""
+            "question": "12) What does “HTTP” stand for?",
+            "answer": "hyper text transfer protocol"
         }
 }
 
@@ -170,16 +170,14 @@ if __name__ == '__main__':
             print(multiple_question_list[counter]['question'])
             choice = input("Enter answer: ")
             multiple_question(counter, choice)
-            for counter in true_false_question_list:
-                print(true_false_question_list[counter]['question'])
-                choice = input("Enter answer: ")
-                true_false_question(counter, choice)
-                for counter in written_question_list:
-                    print(written_question_list[counter]['question'])
-                    choice = input("Enter answer: ")
-                    written_questions(counter, choice)
-                break
-            break
+        for counter in true_false_question_list:
+            print(true_false_question_list[counter]['question'])
+            choice = input("Enter answer: ")
+            true_false_question(counter, choice)
+        for counter in written_question_list:
+            print(written_question_list[counter]['question'])
+            choice = input("Enter answer: ")
+            written_questions(counter, choice)
         break
 
 
