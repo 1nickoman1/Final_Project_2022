@@ -183,4 +183,4 @@ if __name__ == '__main__':
 
 
     Test = float(scoreboard / question_counter) * 100
-    print(f"{scoreboard}, out of {question_counter}, that is {Test}%")
+    print(f"{scoreboard}, out of {question_counter}, that is {Test:.,2f}%")
